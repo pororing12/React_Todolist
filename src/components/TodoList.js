@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import TodoItem from './TodoItem'
 
 
 const TodoListBlock = styled.div`
@@ -12,7 +13,12 @@ background: gray;
 
 function TodoList() {
   return (
-   <TodoListBlock>TodoList</TodoListBlock>
+   <TodoListBlock>
+       <TodoItem text = "프로젝트 생성하기" done = {true} />
+       <TodoItem text = "컴포넌트 스타일링하기" done = {true} />
+       <TodoItem text = "Context 만들기" done = {true} />
+       <TodoItem text = "기능 구현하기" done = {false} />
+   </TodoListBlock>
   );
 }
 
