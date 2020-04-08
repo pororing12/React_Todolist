@@ -4,20 +4,20 @@ const initialTodos = [
     {
         id: 1, 
         text: '프로젝트 생성하기',
-        done: true
+        done: false
     },
     {
         id: 2, 
         text: '컴포넌트 스타일링하기',
-        done: true
+        done: false
     },
     {
         id: 3, 
         text: 'Context 만들기',
-        done: true
+        done: false
     },
     {
-        id: 3, 
+        id: 4, 
         text: '기능 구현하기',
         done: true
     }
